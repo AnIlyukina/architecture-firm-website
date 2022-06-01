@@ -1,13 +1,19 @@
 <template>
   <HeaderPage/>
+  <AboutFirm/>
+  <OurTeam/>
 </template>
 
 <script>
 import HeaderPage from './components/HeaderPage.vue'
+import AboutFirm from './components/AboutFirm.vue'
+import OurTeam from './components/OurTeam.vue'
 export default {
   name: 'App',
   components: {
-    HeaderPage
+    HeaderPage, 
+    AboutFirm,
+    OurTeam
 }
 }
 </script>
